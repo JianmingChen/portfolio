@@ -1,10 +1,8 @@
 /* General styles */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -14,10 +12,6 @@ h1, h2, h3 {
 a {
     color: #3498db;
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 /* Resume page styles */
