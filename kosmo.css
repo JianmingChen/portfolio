@@ -80,11 +80,7 @@ a {
 }
 
 .kosmo-page nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #11698e;
+    text-align: center;
 }
 
 .kosmo-page nav ul li {
@@ -98,7 +94,7 @@ a {
     display: inline-block;
 }
 
-.kosmo-page nav ul li a:hover {
+.kosmo-page nav ul li{
     background-color: #19456b;
 }
 
@@ -124,18 +120,3 @@ a {
     color: #f8f1f1;
 }
 
-/* Responsive design */
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-    
-    .kosmo-page nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .kosmo-page nav ul li {
-        margin: 5px 0;
-    }
-}
