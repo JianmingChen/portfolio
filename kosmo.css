@@ -36,7 +36,7 @@ a {
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-.navbar a:hover {
+.navbar {
     background-color: #575757; /* Change background on hover */
 }
 
