@@ -116,3 +116,28 @@ a {
     color: #f8f1f1;
 }
 
+/* Add this to your kosmo.css file */
+.navbar {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    background-color: #333; /* Dark background color */
+}
+
+.navbar li {
+    flex: 1; /* Make each item take equal space */
+}
+
+.navbar a {
+    display: block; /* Make the link fill the list item */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Change background on hover */
+}
