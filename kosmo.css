@@ -125,3 +125,10 @@ a {
 .resume-page blockquote p {
     margin: 5px 0;
 }
+
+footer a {
+    color: #3498db; /* Distinct color */
+    font-weight: bold;
+    text-decoration: underline; /* Underline for visibility */
+}
+
