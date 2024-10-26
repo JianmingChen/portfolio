@@ -1,13 +1,185 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=home.html" />
-    <title>Redirecting...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ant_studio - Artisanal Desserts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f3e6;
+            color: #5d4037;
+        }
+
+        nav {
+            background-color: #8d6e63;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #f8f3e6;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d7ccc8;
+        }
+
+        header {
+            background-color: #a1887f;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: bold;
+            color: #3e2723;
+            margin-bottom: 1rem;
+        }
+
+        .header-description {
+            max-width: 42rem;
+            margin: 0 auto;
+            color: #f8f3e6;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 1rem;
+        }
+
+        .dessert-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2rem;
+        }
+
+        .dessert-card {
+            background-color: #efebe9;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .dessert-card:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .dessert-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .dessert-info {
+            padding: 1.5rem;
+        }
+
+        .dessert-name {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #4e342e;
+        }
+
+        .dessert-description {
+            font-size: 0.875rem;
+            color: #5d4037;
+        }
+
+        @media (min-width: 768px) {
+            .dessert-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .dessert-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
 </head>
-
 <body>
-    If you are not redirected automatically, follow the <a href="home.html">link to the home page</a>.
+    <nav>
+        <ul>
+            <li><a href="#news">News</a></li>
+            <li><a href="#cakes">Cakes</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>ant_studio</h1>
+        <p class="header-description">Discover our artisanal desserts, where every creation is a masterpiece of flavor and craftsmanship.</p>
+    </header>
+    <main>
+        <div class="dessert-grid">
+            <div class="dessert-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Chocolate Lava Cake" class="dessert-image">
+                <div class="dessert-info">
+                    <h2 class="dessert-name">Chocolate Lava Cake</h2>
+                    <p class="dessert-description">Decadent chocolate cake with a gooey molten center</p>
+                </div>
+            </div>
+            <div class="dessert-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Strawberry Cheesecake" class="dessert-image">
+                <div class="dessert-info">
+                    <h2 class="dessert-name">Strawberry Cheesecake</h2>
+                    <p class="dessert-description">Creamy cheesecake topped with fresh strawberries</p>
+                </div>
+            </div>
+            <div class="dessert-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Tiramisu" class="dessert-image">
+                <div class="dessert-info">
+                    <h2 class="dessert-name">Tiramisu</h2>
+                    <p class="dessert-description">Classic Italian dessert with layers of coffee-soaked ladyfingers</p>
+                </div>
+            </div>
+            <div class="dessert-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Apple Pie" class="dessert-image">
+                <div class="dessert-info">
+                    <h2 class="dessert-name">Apple Pie</h2>
+                    <p class="dessert-description">Traditional American pie with a flaky crust and spiced apple filling</p>
+                </div>
+            </div>
+            <div class="dessert-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Crème Brûlée" class="dessert-image">
+                <div class="dessert-info">
+                    <h2 class="dessert-name">Crème Brûlée</h2>
+                    <p class="dessert-description">Silky custard with a crisp caramelized sugar topping</p>
+                </div>
+            </div>
+            <div class="dessert-card">
+                <img src="/placeholder.svg?height=200&width=300" alt="Macarons" class="dessert-image">
+                <div class="dessert-info">
+                    <h2 class="dessert-name">Macarons</h2>
+                    <p class="dessert-description">Delicate French almond meringue cookies with various fillings</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
-
 </html>
