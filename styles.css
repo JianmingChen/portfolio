@@ -7,7 +7,6 @@ body {
 }
 
 nav {
-
     padding: 1rem;
 }
 
@@ -24,12 +23,13 @@ nav ul li {
     margin: 0 1rem;
 }
 
-nav ul li a {
+nav ul li a.current {
     color: #f8f3e6;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     font-size: 1.1rem;
     transition: color 0.3s ease;
+
 }
 
 nav ul li a {
