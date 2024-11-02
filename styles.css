@@ -105,15 +105,13 @@ main {
     color: #5d4037;
 }
 
-@media (min-width: 768px) {
-    .dessert-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+.dessert-grid {
+    grid-template-columns: repeat(2, 1fr);
 }
 
-@media (min-width: 1024px) {
-    .dessert-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
+
+.dessert-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
