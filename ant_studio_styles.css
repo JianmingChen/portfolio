@@ -143,15 +143,11 @@ footer {
     overflow: hidden;
 }
 
-.contact-left {
-    float: left;
-    width: 450px;
-    margin-right: 20px;
-}
-
+.contact-left,
 .contact-image {
     float: left;
-    width: 450px;
+    width: 48%;
+    margin-right: 2%;
 }
 
 .brand-image {
