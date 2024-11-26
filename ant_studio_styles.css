@@ -86,7 +86,16 @@ main {
     background-color: #ffffff;
 }
 
-/* Dessert Grid Layout */
+/* Footer */
+footer {
+    background-color: var(--accent-color);
+    color: var(--light-text);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Home Page - Dessert Grid */
 .dessert-grid {
     display: block;
     margin: 2rem 0;
@@ -118,55 +127,19 @@ main {
     font-size: 0.875rem;
 }
 
-/* Footer */
-footer {
-    background-color: var(--accent-color);
-    color: var(--light-text);
+/* About Page */
+.about-content h2 {
+    color: var(--primary-text);
+    margin-bottom: 2rem;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
 }
 
-/* Table Styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-}
-
-td {
-    padding: 0.5rem;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-/* FAQ Styles */
-.faq-section dt {
-    font-weight: bold;
-    margin-top: 1rem;
-}
-
-.faq-section dd {
-    margin-left: 1rem;
+.about-content h3 {
+    color: var(--secondary-text);
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-/* Category List Styles */
-.category-list ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.category-list li {
-    margin-bottom: 1rem;
-}
-
-.category-list ul ul {
-    margin-left: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-/* About Page Styles */
 .about-section {
     margin-bottom: 2rem;
 }
@@ -180,19 +153,7 @@ td {
     margin-bottom: 0.5rem;
 }
 
-.about-content h2 {
-    color: var(--primary-text);
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.about-content h3 {
-    color: var(--secondary-text);
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-/* FAQ Page Styles */
+/* FAQ Page */
 .faq-category {
     margin-bottom: 2rem;
 }
@@ -213,28 +174,7 @@ td {
     margin-bottom: 1rem;
 }
 
-/* Contact Page Styles */
-.contact-info {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.hours-table {
-    width: 100%;
-    margin: 1rem 0;
-}
-
-.hours-table td {
-    padding: 0.5rem;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.hours-table td:first-child {
-    font-weight: bold;
-    width: 40%;
-}
-
-/* Category Page Styles */
+/* Categories Page */
 .category-container {
     padding: 1rem 0;
 }
@@ -271,7 +211,7 @@ td {
     color: var(--secondary-text);
 }
 
-/* Contact Page Styles */
+/* Contact Page */
 .contact-container {
     max-width: 800px;
     margin: 0 auto;
@@ -294,7 +234,22 @@ td {
     text-decoration: underline;
 }
 
-.order-details h3 {
+.hours-table {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.hours-table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.hours-table td:first-child {
+    font-weight: bold;
+    width: 40%;
+}
+
+.order-details h4 {
     color: var(--secondary-text);
     margin: 1rem 0 0.5rem 0;
     font-size: 1.1rem;
