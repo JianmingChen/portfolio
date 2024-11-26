@@ -87,13 +87,14 @@ footer {
 /* Home Page - Dessert Grid */
 .dessert-grid {
     width: 100%;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .dessert-card {
-    float: left;
     width: 300px;
-    margin: 10px;
     border: 1px solid #e0e0e0;
 }
 
